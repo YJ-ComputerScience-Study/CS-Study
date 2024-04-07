@@ -1,6 +1,6 @@
 # DNS란?
 
-**DNS(Domain Name System)**란 사용자가 웹브라우저에 사람이 읽을 수 있는 *도메인 네임*을 컴퓨터가 이해할 수 있는 것으로 매핑하는 것을 말합니다. DNS 서버로 인해 클라이언트는 IP주소를 기억하지 않고 해당 주소의 웹사이트에 접근할 수 있습니다.
+DNS(Domain Name System)란 사용자가 웹브라우저에 사람이 읽을 수 있는 도메인 네임을 컴퓨터가 이해할 수 있는 것으로 매핑하는 것을 말합니다. DNS 서버로 인해 클라이언트는 IP주소를 기억하지 않고 해당 주소의 웹사이트에 접근할 수 있습니다.
 
 DNS의 IP 요청 과정은 다음과 같습니다.
 
@@ -17,6 +17,3 @@ DNS의 IP 요청 과정은 다음과 같습니다.
 6. 해당 도메인과 일치하는 IP 주소를 응답 받는다.
 
 7. DNS resolver는 이 IP 주소를 클라이언트에게 다시 전송한다.
-
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/df52fc67-ca62-4cbd-bdfc-faf3ec1210a4/f21c4c0c-aaf6-46c3-b309-0bedafeddc62/Untitled.png)
