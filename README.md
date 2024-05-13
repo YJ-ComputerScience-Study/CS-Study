@@ -108,3 +108,8 @@
 - SQL
 - DDL, DML, DCL, TCL
 - 조인
+
+### 3️⃣ 인덱스
+
+- Clustered Index, Non-Clustered Index
+- B-Tree 인덱스, 해시 인덱스
