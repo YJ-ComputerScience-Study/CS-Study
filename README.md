@@ -113,3 +113,9 @@
 
 - Clustered Index, Non-Clustered Index
 - B-Tree 인덱스, 해시 인덱스
+
+### 4️⃣ 이상 현상, 정규화
+
+- 이상 현상(Anomaly)
+- 함수적 종속
+- 정규화, 반정규화
