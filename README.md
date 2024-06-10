@@ -125,3 +125,18 @@
 - Commit, Rollback
 - ACID
 - 트랜잭션 격리수준
+
+## 📖 자료구조
+
+### 1️⃣ 복잡도
+
+- 시간 복잡도
+- 공간 복잡도
+
+### 2️⃣ 선형 자료구조
+
+- 배열(Array)
+- 벡터(Vector)
+- 연결 리스트(Linked List)
+- 스택(Stack)
+- 큐(Queue)
