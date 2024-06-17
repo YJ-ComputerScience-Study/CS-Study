@@ -140,3 +140,13 @@
 - 연결 리스트(Linked List)
 - 스택(Stack)
 - 큐(Queue)
+
+### 3️⃣ 비선형 자료구조
+
+- 그래프(Graph)
+- 트리(Tree)
+- 우선순위 큐(Priority Queue)
+- 힙(Heap)
+- 해시 테이블(Hash Table)
+- 맵(Map)
+- 셋(Set)
