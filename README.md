@@ -169,7 +169,7 @@
 - Array, Vector, ArrayList, LinkedList
 - iterator
 
-## 3️⃣ multi-threading
+### 3️⃣ multi-threading
 
 - 병렬과 동시성
 - 스레드
