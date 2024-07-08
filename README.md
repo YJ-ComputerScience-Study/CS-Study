@@ -10,7 +10,7 @@
 
 4. 스터디 시간에 서로 질문하고, 답변한다.
 
-## 📖 네트워크
+## 📖 [네트워크](https://github.com/YJ-ComputerScience-Study/CS-Study/tree/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC)
 
 ### 1️⃣ 네트워크 레이어와 HTTP 프로토콜
 
@@ -54,7 +54,7 @@
 - XSS
 - SQL Injection
 
-## 📖 운영체제
+## 📖 [운영체제](https://github.com/YJ-ComputerScience-Study/CS-Study/tree/main/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C)
 
 ### 1️⃣ 운영체제 기본 개념
 
@@ -95,7 +95,7 @@
 - 페이지 교체 알고리즘
 - 스레싱
 
-## 📖 데이터베이스
+## 📖 [데이터베이스](https://github.com/YJ-ComputerScience-Study/CS-Study/tree/main/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4)
 
 ### 1️⃣ 데이터베이스란?
 
@@ -126,7 +126,7 @@
 - ACID
 - 트랜잭션 격리수준
 
-## 📖 자료구조
+## 📖 [자료구조](https://github.com/YJ-ComputerScience-Study/CS-Study/tree/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0)
 
 ### 1️⃣ 복잡도
 
@@ -151,7 +151,8 @@
 - 맵(Map)
 - 셋(Set)
 
-## 📖 자바(Java)
+## 📖 [자바(Java)](https://github.com/YJ-ComputerScience-Study/CS-Study/tree/main/%EC%9E%90%EB%B0%94(Java))
+
 ### 1️⃣ 기초
 
 - JDK와 JRE
@@ -159,3 +160,11 @@
 - 문자열
 - 추상 클래스
 - final
+
+### 2️⃣ Container
+
+- Collection
+- List, Set, Map
+- TreeMap, HashMap, Hashtable, HashSet
+- Array, Vector, ArrayList, LinkedList
+- iterator
