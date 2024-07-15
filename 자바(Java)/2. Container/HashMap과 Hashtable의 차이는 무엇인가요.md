@@ -1,54 +1,54 @@
-## HashMapê³¼ Hashtableì˜ ì°¨ì´ëŠ” ë¬´ì—‡ì¸ê°€ìš”?
+## HashMap°ú HashtableÀÇ Â÷ÀÌ´Â ¹«¾ùÀÎ°¡¿ä?
 
-- **HashMap** (ë™ê¸°í™” ë³´ìž¥ X)
+- **HashMap** (µ¿±âÈ­ º¸Àå X)
 
-  - **ë¹„ë™ê¸°ì  (thread-safeí•˜ì§€ ì•ŠìŒ)**
+  - **ºñµ¿±âÀû (thread-safeÇÏÁö ¾ÊÀ½)**
 
-  - null í‚¤ì™€ null ê°’ì„ í—ˆìš©
-  - ì„±ëŠ¥ì´ ë” ì¢‹ìŒ
+  - null Å°¿Í null °ªÀ» Çã¿ë
+  - ¼º´ÉÀÌ ´õ ÁÁÀ½
 
-- **Hashtable** (ë™ê¸°í™” ë³´ìž¥)
+- **Hashtable** (µ¿±âÈ­ º¸Àå)
 
-  - **ë™ê¸°ì  (thread-safe)**
+  - **µ¿±âÀû (thread-safe)**
 
-  - null í‚¤ì™€ null ê°’ì„ í—ˆìš©í•˜ì§€ ì•ŠìŒ
-  - ì„±ëŠ¥ì´ ìƒëŒ€ì ìœ¼ë¡œ ë–¨ì–´ì§
+  - null Å°¿Í null °ªÀ» Çã¿ëÇÏÁö ¾ÊÀ½
+  - ¼º´ÉÀÌ »ó´ëÀûÀ¸·Î ¶³¾îÁü
 
 <br>
 
-# ë” ì•Œì•„ë³´ê¸°
+# ´õ ¾Ë¾Æº¸±â
 
-## HashMapê³¼ Hashtableì˜ ê³µí†µì ì€?
+## HashMap°ú HashtableÀÇ °øÅëÁ¡Àº?
 
-> Map ì¸í„°íŽ˜ì´ìŠ¤ êµ¬í˜„, ë‘˜ ë‹¤ í•´ì‹œ í…Œì´ë¸” ê¸°ë°˜
+> Map ÀÎÅÍÆäÀÌ½º ±¸Çö, µÑ ´Ù ÇØ½Ã Å×ÀÌºí ±â¹Ý
 
-- ë‘˜ ë‹¤ **java.util.Map ì¸í„°íŽ˜ì´ìŠ¤ë¥¼ êµ¬í˜„**í•˜ê³  ìžˆê³ , ë‘ í´ëž˜ìŠ¤ ëª¨ë‘ **í•´ì‹œ í…Œì´ë¸”**ì„ ê¸°ë°˜ìœ¼ë¡œ êµ¬í˜„ë˜ì–´ ìžˆìŒ. ë‚´ë¶€ì ìœ¼ë¡œëŠ” ë°°ì—´ê³¼ ì—°ê²° ë¦¬ìŠ¤íŠ¸ ë˜ëŠ” íŠ¸ë¦¬ë¥¼ ì‚¬ìš©í•´ ì¶©ëŒ ì²˜ë¦¬í•¨.
+- µÑ ´Ù **java.util.Map ÀÎÅÍÆäÀÌ½º¸¦ ±¸Çö**ÇÏ°í ÀÖ°í, µÎ Å¬·¡½º ¸ðµÎ **ÇØ½Ã Å×ÀÌºí**À» ±â¹ÝÀ¸·Î ±¸ÇöµÇ¾î ÀÖÀ½. ³»ºÎÀûÀ¸·Î´Â ¹è¿­°ú ¿¬°á ¸®½ºÆ® ¶Ç´Â Æ®¸®¸¦ »ç¿ëÇØ Ãæµ¹ Ã³¸®ÇÔ.
 
-- **í‚¤-ê°’ ìŒì„ ì €ìž¥**í•˜ê³  **ê´€ë¦¬**í•˜ëŠ” ë° ì‚¬ìš©ë¨.
-- ê¸°ë³¸ì ì¸ ë©”ì„œë“œ
+- **Å°-°ª ½ÖÀ» ÀúÀå**ÇÏ°í **°ü¸®**ÇÏ´Â µ¥ »ç¿ëµÊ.
+- ±âº»ÀûÀÎ ¸Þ¼­µå
 
-  - put(K key, V value) : í‚¤ì™€ ê°’ì„ ì¶”ê°€í•˜ê±°ë‚˜ ì—…ë°ì´íŠ¸
+  - put(K key, V value) : Å°¿Í °ªÀ» Ãß°¡ÇÏ°Å³ª ¾÷µ¥ÀÌÆ®
 
-  - get(Object key) : í‚¤ì— ë§¤í•‘ëœ ê°’ì„ ë°˜í™˜
-  - remove(Object key) : í‚¤ì— ë§¤í•‘ëœ ê°’ì„ ì œê±°
-  - containsKey(Object key) : í‚¤ê°€ ì¡´ìž¬í•˜ëŠ”ì§€ í™•ì¸
-  - containsValue(Object value) : ê°’ì´ ì¡´ìž¬í•˜ëŠ”ì§€ í™•ì¸
-  - size() : ì €ìž¥ëœ í‚¤-ê°’ ìŒì˜ ê°œìˆ˜ ë°˜í™˜
-  - isEmpty() : ë¹„ì–´ ìžˆëŠ”ì§€ í™•ì¸
-  - keySet() : ëª¨ë“  í‚¤ë¥¼ ë°˜í™˜
-  - values() : ëª¨ë“  ê°’ì„ ë°˜í™˜
-  - entrySet() : ëª¨ë“  í‚¤-ê°’ ìŒì„ ë°˜í™˜
+  - get(Object key) : Å°¿¡ ¸ÅÇÎµÈ °ªÀ» ¹ÝÈ¯
+  - remove(Object key) : Å°¿¡ ¸ÅÇÎµÈ °ªÀ» Á¦°Å
+  - containsKey(Object key) : Å°°¡ Á¸ÀçÇÏ´ÂÁö È®ÀÎ
+  - containsValue(Object value) : °ªÀÌ Á¸ÀçÇÏ´ÂÁö È®ÀÎ
+  - size() : ÀúÀåµÈ Å°-°ª ½ÖÀÇ °³¼ö ¹ÝÈ¯
+  - isEmpty() : ºñ¾î ÀÖ´ÂÁö È®ÀÎ
+  - keySet() : ¸ðµç Å°¸¦ ¹ÝÈ¯
+  - values() : ¸ðµç °ªÀ» ¹ÝÈ¯
+  - entrySet() : ¸ðµç Å°-°ª ½ÖÀ» ¹ÝÈ¯
 
-## ìš”ì¦˜ì€ ì–¸ì œ ë¬´ì—‡ì„ ì“°ë‚˜ìš”?
+## ¿äÁòÀº ¾ðÁ¦ ¹«¾ùÀ» ¾²³ª¿ä?
 
-> Hashtableë³´ë‹¨ ConcurrentHashMapì„ ì“´ë‹¤.
+> Hashtableº¸´Ü ConcurrentHashMapÀ» ¾´´Ù.
 
-í˜„ëŒ€ì ì¸ ì½”ë“œì—ì„œëŠ” ì¼ë°˜ì ìœ¼ë¡œ
+Çö´ëÀûÀÎ ÄÚµå¿¡¼­´Â ÀÏ¹ÝÀûÀ¸·Î
 
-- ìŠ¤ë ˆë“œ ì•ˆì „ì´ í•„ìš”í•˜ì§€ ì•Šì€ ê²½ìš°, **HashMap** ì‚¬ìš©
+- ½º·¹µå ¾ÈÀüÀÌ ÇÊ¿äÇÏÁö ¾ÊÀº °æ¿ì, **HashMap** »ç¿ë
 
-- ìŠ¤ë ˆë“œ ì•ˆì „ì´ í•„ìš”í•œ ê²½ìš°, **ConcurrentHashMap** ì‚¬ìš©
+- ½º·¹µå ¾ÈÀüÀÌ ÇÊ¿äÇÑ °æ¿ì, **ConcurrentHashMap** »ç¿ë
 
-  - ConcurrentHashMap : ë™ì‹œì„± ì§€ì› + ì„±ëŠ¥ë„ ìµœì í™”ë¨. ì—¬ëŸ¬ ìŠ¤ë ˆë“œê°€ ë™ì‹œì— ë°ì´í„°ë¥¼ ì½ê³  ì“¸ ìˆ˜ ìžˆë„ë¡ ì„¤ê³„ë¨.
+  - ConcurrentHashMap : µ¿½Ã¼º Áö¿ø + ¼º´Éµµ ÃÖÀûÈ­µÊ. ¿©·¯ ½º·¹µå°¡ µ¿½Ã¿¡ µ¥ÀÌÅÍ¸¦ ÀÐ°í ¾µ ¼ö ÀÖµµ·Ï ¼³°èµÊ.
 
-Hashtableì€ ì£¼ë¡œ ë ˆê±°ì‹œ ì½”ë“œì—ì„œë§Œ ì‚¬ìš©ë¨.
+HashtableÀº ÁÖ·Î ·¹°Å½Ã ÄÚµå¿¡¼­¸¸ »ç¿ëµÊ.

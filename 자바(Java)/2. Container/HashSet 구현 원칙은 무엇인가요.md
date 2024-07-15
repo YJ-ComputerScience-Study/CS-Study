@@ -1,13 +1,14 @@
-## HashSet êµ¬í˜„ ì›ì¹™ì€ ë¬´ì—‡ì¸ê°€ìš”?
+## HashSet ±¸Çö ¿øÄ¢Àº ¹«¾ùÀÎ°¡¿ä?
 
-Set ì¸í„°íŽ˜ì´ìŠ¤ë¥¼ êµ¬í˜„í•˜ëŠ” HashSetì€ **ë‚´ë¶€ì ìœ¼ë¡œ HashMapì„ ì‚¬ìš©**í•˜ì—¬ ìš”ì†Œì˜ ê³ ìœ ì„±ì„ ìœ ì§€í•˜ê³ , ë¹ ë¥¸ ì‚½ìž…, ì‚­ì œ, ê²€ìƒ‰ì„ ì œê³µí•©ë‹ˆë‹¤.
+Set ÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇÏ´Â HashSetÀº **³»ºÎÀûÀ¸·Î HashMapÀ» »ç¿ë**ÇÏ¿© ¿ä¼ÒÀÇ °íÀ¯¼ºÀ» À¯ÁöÇÏ°í, ºü¸¥ »ðÀÔ, »èÁ¦, °Ë»öÀ» Á¦°øÇÕ´Ï´Ù.
 
-ê° ìš”ì†ŒëŠ” HashMapì˜ í‚¤ë¡œ ì €ìž¥ë˜ê³ , ê°’ì€ ê³ ì •ëœ ê°ì²´(`PRESENT`)ë¡œ ì„¤ì •ë©ë‹ˆë‹¤. ì´ë¡œ ì¸í•´ ì¤‘ë³µëœ ìš”ì†Œê°€ ë“¤ì–´ì˜¤ë©´ ê¸°ì¡´ í‚¤ê°€ ë®ì–´ì“°ì—¬ì ¸ì„œ ì¤‘ë³µëœ ìš”ì†Œë¥¼ ìžë™ìœ¼ë¡œ ì œê±°í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
+°¢ ¿ä¼Ò´Â HashMapÀÇ Å°·Î ÀúÀåµÇ°í, °ªÀº °íÁ¤µÈ °´Ã¼(`PRESENT`)·Î ¼³Á¤µË´Ï´Ù. ÀÌ·Î ÀÎÇØ Áßº¹µÈ ¿ä¼Ò°¡ µé¾î¿À¸é ±âÁ¸ Å°°¡ µ¤¾î¾²¿©Á®¼­ Áßº¹µÈ ¿ä¼Ò¸¦ ÀÚµ¿À¸·Î Á¦°ÅÇÒ ¼ö ÀÖ½À´Ï´Ù.
 
-- `PRESENT`ëŠ” HashSetì˜ ë‚´ë¶€ì— ìžˆëŠ” HashMapì˜ Valueì— ë“¤ì–´ê°€ëŠ” Dummyê°’
+- `PRESENT`´Â HashSetÀÇ ³»ºÎ¿¡ ÀÖ´Â HashMapÀÇ Value¿¡ µé¾î°¡´Â Dummy°ª
 
-### HashSetì´ HashMapì„ ì‚¬ìš©í•´ êµ¬í˜„ë˜ëŠ” ì´ìœ ?
+### HashSetÀÌ HashMapÀ» »ç¿ëÇØ ±¸ÇöµÇ´Â ÀÌÀ¯?
 
-ê³ ìœ ì„± ìœ ì§€, íš¨ìœ¨ì ì¸ ë°ì´í„° ê´€ë¦¬ë¥¼ ìœ„í•´ì„œ.
+°íÀ¯¼º À¯Áö, È¿À²ÀûÀÎ µ¥ÀÌÅÍ °ü¸®¸¦ À§ÇØ¼­.
 
-HashMapì˜ í‚¤ì˜ ê³ ìœ ì„±ì„ ì´ìš©í•´ Setì˜ íŠ¹ì„±ì„ êµ¬í˜„í•¨.
+HashMapÀÇ Å°ÀÇ °íÀ¯¼ºÀ» ÀÌ¿ëÇØ SetÀÇ Æ¯¼ºÀ» ±¸ÇöÇÔ.
+
