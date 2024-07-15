@@ -46,7 +46,7 @@
               synchronized (lock) {
                   System.out.println(Thread.currentThread().getName() + " 대기 시작");
                   try {
-                      **lock.wait();**
+                      lock.wait();
                   } catch (InterruptedException e) {
                       e.printStackTrace();
                   }
@@ -60,7 +60,7 @@
           public void run() {
               synchronized (lock) {
                   System.out.println(Thread.currentThread().getName() + " 알림 시작");
-                  **lock.notify();** // 대기 중인 스레드 중 하나를 깨움
+                  lock.notify(); // 대기 중인 스레드 중 하나를 깨움
                   System.out.println(Thread.currentThread().getName() + " 알림 종료");
               }
           }
@@ -100,7 +100,7 @@
               synchronized (lock) {
                   System.out.println(Thread.currentThread().getName() + " 대기 시작");
                   try {
-                      **lock.wait();**
+                      lock.wait();
                   } catch (InterruptedException e) {
                       e.printStackTrace();
                   }
@@ -114,7 +114,7 @@
           public void run() {
               synchronized (lock) {
                   System.out.println(Thread.currentThread().getName() + " 알림 시작");
-                  **lock.notifyAll();** // 대기 중인 모든 스레드를 깨움
+                  lock.notifyAll(); // 대기 중인 모든 스레드를 깨움
                   System.out.println(Thread.currentThread().getName() + " 알림 종료");
               }
           }
