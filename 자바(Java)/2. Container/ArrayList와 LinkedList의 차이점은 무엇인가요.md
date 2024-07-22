@@ -1,15 +1,15 @@
-## ArrayListì™€ LinkedListì˜ ì°¨ì´ì ì€ ë¬´ì—‡ì¸ê°€ìš”?
+## ArrayList¿Í LinkedListÀÇ Â÷ÀÌÁ¡Àº ¹«¾ùÀÎ°¡¿ä?
 
 - **ArrayList**
 
-  - ë°°ì—´ ê¸°ë°˜
+  - ¹è¿­ ±â¹Ý
 
-  - ì¸ë±ìŠ¤ë¥¼ í†µí•œ ë¹ ë¥¸ ì ‘ê·¼ O(1)
-  - ì¤‘ê°„ ì‚½ìž…/ì‚­ì œ ì‹œ ì„±ëŠ¥ ì €í•˜ O(n)
+  - ÀÎµ¦½º¸¦ ÅëÇÑ ºü¸¥ Á¢±Ù O(1)
+  - Áß°£ »ðÀÔ/»èÁ¦ ½Ã ¼º´É ÀúÇÏ O(n)
 
 - **LinkedList**
 
-  - ì—°ê²° ë¦¬ìŠ¤íŠ¸ ê¸°ë°˜
+  - ¿¬°á ¸®½ºÆ® ±â¹Ý
 
-  - ì¤‘ê°„ ì‚½ìž…/ì‚­ì œ ì‹œ ì„±ëŠ¥ í–¥ìƒ O(1)
-  - ì¸ë±ìŠ¤ë¥¼ í†µí•œ ì ‘ê·¼ ì‹œ ì„±ëŠ¥ ì €í•˜ O(n)
+  - Áß°£ »ðÀÔ/»èÁ¦ ½Ã ¼º´É Çâ»ó O(1)
+  - ÀÎµ¦½º¸¦ ÅëÇÑ Á¢±Ù ½Ã ¼º´É ÀúÇÏ O(n)

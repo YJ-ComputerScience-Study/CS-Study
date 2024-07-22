@@ -1,25 +1,25 @@
-## Collectionê³¼ Collectionsì˜ ì°¨ì´ëŠ” ë¬´ì—‡ì¸ê°€ìš”?
+## Collection°ú CollectionsÀÇ Â÷ÀÌ´Â ¹«¾ùÀÎ°¡¿ä?
 
-- **Collection** : java.util.Collection ì¸í„°íŽ˜ì´ìŠ¤ëŠ” **ì»¬ë ‰ì…˜ í”„ë ˆìž„ì›Œí¬ì˜ ë£¨íŠ¸ ì¸í„°íŽ˜ì´ìŠ¤. ì—¬ëŸ¬ ìš”ì†Œë¥¼ ì €ìž¥í•˜ëŠ” ë° ì‚¬ìš©**ë¨. List, Set, Queue ì¸í„°íŽ˜ì´ìŠ¤ê°€ ì´ë¥¼ ìƒì†ë°›ìŒ.
+- **Collection** : java.util.Collection ÀÎÅÍÆäÀÌ½º´Â **ÄÃ·º¼Ç ÇÁ·¹ÀÓ¿öÅ©ÀÇ ·çÆ® ÀÎÅÍÆäÀÌ½º. ¿©·¯ ¿ä¼Ò¸¦ ÀúÀåÇÏ´Â µ¥ »ç¿ë**µÊ. List, Set, Queue ÀÎÅÍÆäÀÌ½º°¡ ÀÌ¸¦ »ó¼Ó¹ÞÀ½.
 
-  ì˜ˆ :
+  ¿¹ :
 
-  - `List` ì¸í„°íŽ˜ì´ìŠ¤: `ArrayList`, `LinkedList`
+  - `List` ÀÎÅÍÆäÀÌ½º: `ArrayList`, `LinkedList`
 
-  - `Set` ì¸í„°íŽ˜ì´ìŠ¤: `HashSet`, `TreeSet`
-  - `Queue` ì¸í„°íŽ˜ì´ìŠ¤: `LinkedList`, `PriorityQueue`
+  - `Set` ÀÎÅÍÆäÀÌ½º: `HashSet`, `TreeSet`
+  - `Queue` ÀÎÅÍÆäÀÌ½º: `LinkedList`, `PriorityQueue`
 
-- **Collections** : java.util.Collections í´ëž˜ìŠ¤ëŠ” **ì»¬ë ‰ì…˜ì„ ë‹¤ë£¨ê¸° ìœ„í•œ static ìœ í‹¸ë¦¬í‹° ë©”ì„œë“œë¥¼ ì œê³µí•˜ëŠ” í´ëž˜ìŠ¤**. ì •ë ¬, ê²€ìƒ‰, ë™ê¸°í™”ëœ ì»¬ë ‰ì…˜ ë°˜í™˜ ë“±ì˜ ê¸°ëŠ¥ì„ ì œê³µí•¨.
+- **Collections** : java.util.Collections Å¬·¡½º´Â **ÄÃ·º¼ÇÀ» ´Ù·ç±â À§ÇÑ static À¯Æ¿¸®Æ¼ ¸Þ¼­µå¸¦ Á¦°øÇÏ´Â Å¬·¡½º**. Á¤·Ä, °Ë»ö, µ¿±âÈ­µÈ ÄÃ·º¼Ç ¹ÝÈ¯ µîÀÇ ±â´ÉÀ» Á¦°øÇÔ.
 
-  ì£¼ìš” ê¸°ëŠ¥ :
+  ÁÖ¿ä ±â´É :
 
-  - ì»¬ë ‰ì…˜ ì •ë ¬ (`sort`)
+  - ÄÃ·º¼Ç Á¤·Ä (`sort`)
 
-  - ì»¬ë ‰ì…˜ ê²€ìƒ‰ (`binarySearch`)
-  - ì»¬ë ‰ì…˜ ìš”ì†Œ ì±„ìš°ê¸° (`fill`)
-  - ì»¬ë ‰ì…˜ ë³µì‚¬ (`copy`)
-  - ì»¬ë ‰ì…˜ ìš”ì†Œ ë°”ê¾¸ê¸° (`swap`)
-  - ìŠ¤ë ˆë“œ-ì•ˆì „ ì»¬ë ‰ì…˜ ìƒì„± (`synchronizedList`, `synchronizedSet`, etc.)
-  - ë¶ˆë³€ ì»¬ë ‰ì…˜ ìƒì„± (`unmodifiableList`, `unmodifiableSet`, etc.)
+  - ÄÃ·º¼Ç °Ë»ö (`binarySearch`)
+  - ÄÃ·º¼Ç ¿ä¼Ò Ã¤¿ì±â (`fill`)
+  - ÄÃ·º¼Ç º¹»ç (`copy`)
+  - ÄÃ·º¼Ç ¿ä¼Ò ¹Ù²Ù±â (`swap`)
+  - ½º·¹µå-¾ÈÀü ÄÃ·º¼Ç »ý¼º (`synchronizedList`, `synchronizedSet`, etc.)
+  - ºÒº¯ ÄÃ·º¼Ç »ý¼º (`unmodifiableList`, `unmodifiableSet`, etc.)
 
-> Collections í´ëž˜ìŠ¤ëŠ” Collection ì¸í„°íŽ˜ì´ìŠ¤ë¥¼ êµ¬í˜„í•œ í´ëž˜ìŠ¤ê°€ ì•„ë‹ˆë‹¤!
+> Collections Å¬·¡½º´Â Collection ÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇÑ Å¬·¡½º°¡ ¾Æ´Ï´Ù!
