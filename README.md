@@ -184,3 +184,10 @@
 
 - 객체 복사
 - 깊은 복사와 얕은 복사
+
+### 6️⃣ Java Web
+
+- jsp
+- 세션과 쿠키
+- MVC와 struts
+- SQL Injection, XSS, CSRF
