@@ -134,7 +134,7 @@ public class ReflectionExample {
 
 ```
 
-- 클래스 객체 가져오기 : `Class.forName(”ExampleClass”)`
+- 클래스 객체 가져오기 : `Class.forName("ExampleClass")`
 
 - 필드 탐색 : `getDeclaredFields()`
 - 생성자 탐색 : `getConstructors()`
