@@ -191,3 +191,9 @@
 - 세션과 쿠키
 - MVC와 struts
 - SQL Injection, XSS, CSRF
+
+### 7️⃣ 예외 클래스
+
+- throw와 throws
+- try-catch-finally
+- exception 클래스
