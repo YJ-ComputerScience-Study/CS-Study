@@ -197,3 +197,9 @@
 - throw와 throws
 - try-catch-finally
 - exception 클래스
+
+### 8️⃣ internet
+
+- tcp와 udp
+- OSI 7계층
+- 디자인 패턴
