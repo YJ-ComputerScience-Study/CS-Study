@@ -36,9 +36,9 @@
 
 - 예외 : 프로그램 실행 중 개발자의 실수로 예기치 않은 상황 발생할 때임.
 
-  - 체크 예외는 반드시 에러 처리(try/catch or throw) 해야 함
+  - 체크 예외는 반드시 예외 처리(try/catch or throw) 해야 함
 
-  - 언체크 예외는 에러 처리를 강제하지 않음
+  - 언체크 예외는 예외 처리를 강제하지 않음
     ![image](https://github.com/user-attachments/assets/a8defc13-4c3f-46f2-8e19-7b3256c10593)
 
 ### 참고
